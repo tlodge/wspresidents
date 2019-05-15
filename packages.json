@@ -1,0 +1,37 @@
+{
+    "packageId": "165aa2d8d4234e",
+    "name": "residents",
+    "description": "resident listing",
+    "buttons": [
+        {
+            "buttonId": "dd0ec728815448",
+            "name": "residents",
+            "description": "wharfside residents",
+            "type": "action",
+            "questions": [
+                {
+                    "question": "wharfside residents",
+                    "type": "users",
+                    "values": {
+                        "features": [
+                            "message",
+                            "update"
+                        ]
+                    },
+                    "validators": [],
+                    "compulsory": false,
+                    "questionId": "2df15f7151c17e",
+                    "number": 1
+                }
+            ],
+            "navigation": {
+                "id": "2df15f7151c17e",
+                "type": "node",
+                "parent": null,
+                "children": [],
+                "defaults": {}
+            },
+            "webhooks": []
+        }
+    ]
+}
